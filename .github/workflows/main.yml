@@ -21,6 +21,6 @@ jobs:
       - name: 'after '
         run: ls
       - name: "login to Docker hub"
-        run: Docker login --username 30206188800434 --password dckr_pat_1BAtYnqgRiSLKLLLfMw-DkZ5ubY
+        run: Docker login -u 30206188800434 --password dckr_pat_1BAtYnqgRiSLKLLLfMw-DkZ5ubY
 
 
